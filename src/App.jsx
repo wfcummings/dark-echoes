@@ -29,11 +29,11 @@ export default function App() {
   function Roster() {
     return (
       <section className="episodes">
-        <h2>Roster</h2>
+        <h2>Episodes</h2>
         <ul className="episodes">
           {episodes.map((Episode) => (
             <li key={Episode.id} onClick={() => setSelectedEpisode(Episode)}>
-              {Episode.name}
+              {Episode.title}
             </li>
           ))}
         </ul>
