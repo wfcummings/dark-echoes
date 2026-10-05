@@ -11,7 +11,7 @@ export default function App() {
       return (
         <section className="details">
           <h2>Episode Details</h2>
-          <p>Select a Episode to learn more.</p>
+          <p>Select a Episode to watch.</p>
         </section>
       );
     }
@@ -44,7 +44,7 @@ export default function App() {
   return (
     <>
       <header>
-        <h1>Episode Pals</h1>
+        <h1>Dark Echoes</h1>
       </header>
       <main>
         <Roster />
