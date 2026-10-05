@@ -21,6 +21,7 @@ export default function App() {
         <h2>Episode {selectedEpisode.id}</h2>
         <h3>{selectedEpisode.title}.</h3>
         <p>{selectedEpisode.description}</p>
+        <button>WATCH NOW</button>
       </section>
     );
   }
@@ -31,9 +32,9 @@ export default function App() {
       <section className="episodes">
         <h2>Episodes</h2>
         <ul className="episodes">
-          {episodes.map((Episode) => (
-            <li key={Episode.id} onClick={() => setSelectedEpisode(Episode)}>
-              {Episode.title}
+          {episodes.map((episode) => (
+            <li key={episode.id} onClick={() => setSelectedEpisode(episode)}>
+              {episode.title}
             </li>
           ))}
         </ul>
