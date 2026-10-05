@@ -45,3 +45,13 @@ main {
   flex-direction: column;
   gap: 2ch;
 }
+
+button {
+  background-color: white;
+  width: 80%;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
